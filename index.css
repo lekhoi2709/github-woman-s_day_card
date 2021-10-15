@@ -1,11 +1,4 @@
-* {
-    width: 0;
-    
-    block-sizing: border-box;
-}
-html{
-    background-image: url(images/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+.card img {
+    width: 100%;
 
+}
