@@ -5,11 +5,12 @@
     border-width: 10px;
     border-color: azure;
     display: block;
-    margin: 200px auto;
+    margin: 150px auto;
 }
 
 body {
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(#fab1a0, #ff7675)
+    overflow: hidden;
+    background: linear-gradient(#fab1a0, #ff7675);
 }
