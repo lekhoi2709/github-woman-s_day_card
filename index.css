@@ -1,11 +1,10 @@
 .card img {
-    width: 75%;
-    align-content: center;
+    width: 50%;
     border-style: solid;
     border-width: 10px;
     border-color: azure;
     display: block;
-    margin: 150px auto;
+    margin: 75px auto;
 }
 
 body {
