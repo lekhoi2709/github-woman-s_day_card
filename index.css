@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .card img {
     width: 50%;
     border-style: solid;
@@ -8,7 +13,6 @@
 }
 
 body {
-    margin: 0;
     min-height: 100vh;
     overflow: hidden;
     background: linear-gradient(#fab1a0, #ff7675);
