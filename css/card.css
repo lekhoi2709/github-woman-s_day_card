@@ -24,8 +24,7 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 200vh;
     overflow: hidden;
     background: linear-gradient(#fab1a0, #ff7675);
 }
-
