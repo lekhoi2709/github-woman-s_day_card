@@ -4,12 +4,15 @@
 }
 
 .card img {
-    width: 50%;
     border-style: solid;
     border-width: 10px;
     border-color: azure;
-    display: block;
-    margin: 75px auto;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -125px;
+    position: absolute;
+    top: 50%;
+    width: 250px;
 }
 
 body {
