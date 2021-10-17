@@ -15,6 +15,12 @@
         top: 50%;
         width: 300px;
     }   
+
+    body {
+        min-height: 100vh;
+        overflow: hidden;
+        background: linear-gradient(#fab1a0, #ff7675);
+    }
 }
 
 body {
