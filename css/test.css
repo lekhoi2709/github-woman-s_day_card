@@ -18,41 +18,45 @@ body {
 
 .card .image:nth-child(1) {
     background-size: cover;   
-    background: url('../images/page1.png'); 
+    background: url('../images/test1.png') no-repeat center fixed; 
 }
 .card .image:nth-child(2) {
     background-size: cover; 
-    background: url('../images/page2.png');
+    background: url('../images/test2.png') no-repeat center fixed;
 }
 .card .image:nth-child(3) {
     background-size: cover; 
-    background: url('../images/page3.png');
+    background: url('../images/test3.png') no-repeat center fixed;
 }
 .card .image:nth-child(4) {
     background-size: cover; 
-    background: url('../images/page4.png');
+    background: url('../images/test4.png') no-repeat center fixed;
 }
 .card .image:nth-child(5) {
     background-size: cover; 
-    background: url('../images/page5.png');
+    background: url('../images/test5.png') no-repeat center fixed;
 }
 .card .image:nth-child(6) {
     background-size: cover; 
-    background: url('../images/page6.png');
+    background: url('../images/test6.png') no-repeat center fixed;
 }
 .card .image:nth-child(7) {
     background-size: cover; 
-    background: url('../images/page7.png');
+    background: url('../images/test7.png') no-repeat center fixed;
 }
 .card .image:nth-child(8) {
     background-size: cover; 
-    background: url('../images/page8.png');
+    background: url('../images/test8.png') no-repeat center fixed;
 }
 .card .image:nth-child(9) {
     background-size: cover; 
-    background: url('../images/page9.png');
+    background: url('../images/test9.png') no-repeat center fixed;
 }
 .card .image:nth-child(10) {
     background-size: cover; 
-    background: url('../images/page10.png');
+    background: url('../images/test10.png') no-repeat center fixed;
+}
+
+@media only screen and (max-width: 479px) {
+
 }
