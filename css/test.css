@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+}
+
+.card .image {
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+.card .image:nth-child(1) {
+    background-size: cover; 
+    background: url('images/page2.png');
+}
