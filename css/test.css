@@ -5,71 +5,56 @@ body {
 
 .card {
     position: relative;
-    width: 100%;
+    width: 100vw;
     display: grid;
 }
 
 .card .image {
     position: sticky;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    /* background: black; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .card .image:nth-child(1) {
-    background-size: cover;   
-    background: url('../images/test1.png') no-repeat center fixed; 
+    background-image: url('../images/test1.png');   
 }
 .card .image:nth-child(2) {
-    background-size: cover; 
-    background: url('../images/test2.png') no-repeat center fixed;
+    background-image: url('../images/test2.png');
 }
 .card .image:nth-child(3) {
-    background-size: cover; 
-    background: url('../images/test3.png') no-repeat center fixed;
+    background-image: url('../images/test3.png');
 }
 .card .image:nth-child(4) {
-    background-size: cover; 
-    background: url('../images/test4.png') no-repeat center fixed;
+    background-image: url('../images/test4.png');
 }
 .card .image:nth-child(5) {
-    background-size: cover; 
-    background: url('../images/test5.png') no-repeat center fixed;
+    background-image: url('../images/test5.png'); 
 }
 .card .image:nth-child(6) {
-    background-size: cover; 
-    background: url('../images/test6.png') no-repeat center fixed;
+    background-image: url('../images/test6.png'); 
 }
 .card .image:nth-child(7) {
-    background-size: cover; 
-    background: url('../images/test7.png') no-repeat center fixed;
+    background-image: url('../images/test7.png'); 
 }
 .card .image:nth-child(8) {
-    background-size: cover; 
-    background: url('../images/test8.png') no-repeat center fixed;
+    background-image: url('../images/test8.png'); 
 }
 .card .image:nth-child(9) {
-    background-size: cover; 
-    background: url('../images/test9.png') no-repeat center fixed;
+    background-image: url('../images/test9.png'); 
 }
 .card .image:nth-child(10) {
-    background-size: cover; 
-    background: url('../images/test10.png') no-repeat center fixed;
+    background-image: url('../images/test10.png'); 
 }
 
 @media only screen and (max-width: 479px) {
     .card {
-        position: relative;
-        width: 100%;
-        display: grid;
         background-size: 300px;
     }
     
     .card .image {
-        background-size: 300px;;
-        position: sticky;
-        width: 100%;
-        height: 100vh;
-        /* background: black; */
+        background-size: 300px !important;
     }
 }
