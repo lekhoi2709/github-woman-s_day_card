@@ -13,7 +13,7 @@ body {
     position: sticky;
     width: 100%;
     height: 100vh;
-    background: black;
+    /* background: black; */
 }
 
 .card .image:nth-child(1) {
@@ -58,5 +58,18 @@ body {
 }
 
 @media only screen and (max-width: 479px) {
-
+    .card {
+        position: relative;
+        width: 100%;
+        display: grid;
+        background-size: 300px;
+    }
+    
+    .card .image {
+        background-size: 300px;;
+        position: sticky;
+        width: 100%;
+        height: 100vh;
+        /* background: black; */
+    }
 }
