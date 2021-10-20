@@ -49,12 +49,8 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-    .card {
-        background-size: 300px;
-        display: block;
-    }
-    
-    .card .image {
+    .image {
         background-size: 450px !important;
+        margin-left: -50px !important;
     }
 }
