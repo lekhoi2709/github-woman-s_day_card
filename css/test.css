@@ -48,7 +48,7 @@ body {
     background-image: url('../images/test10.png'); 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
     .image {
         background-size: 100% !important;
     }
