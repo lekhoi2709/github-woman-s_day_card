@@ -1,12 +1,11 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 
 .card {
     position: relative;
-    width: 100vw;
-    display: grid;
+    width: 100%;
 }
 
 .card .image {
@@ -49,9 +48,10 @@ body {
     background-image: url('../images/test10.png'); 
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 500px) {
     .card {
-        background-size: 300px;
+        background-size: 450px;
+        display: block;
     }
     
     .card .image {
