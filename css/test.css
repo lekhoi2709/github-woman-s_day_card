@@ -11,7 +11,7 @@ body {
 .card .image {
     position: -webkit-sticky;
     position: sticky;
-    background-size: 100%;
+    background-size: 70%;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
