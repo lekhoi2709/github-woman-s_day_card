@@ -50,11 +50,11 @@ body {
 
 @media only screen and (max-width: 500px) {
     .card {
-        background-size: 450px;
+        background-size: 300px;
         display: block;
     }
     
     .card .image {
-        background-size: 300px !important;
+        background-size: 450px !important;
     }
 }
